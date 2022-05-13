@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE resources [
-    <!ENTITY appName "Linphone">
+    <!ENTITY appName "ASSIP">
 ]>
 
 <resources>
@@ -37,7 +37,7 @@
     <string name="status_error">連接失敗</string>
     <string name="no_account_configured">沒有配置的帳戶</string>
     <string name="about">關於</string>
-    <string name="assistant">助手</string>
+    <string name="assistant">账户</string>
     <string name="recordings">錄音</string>
     <string name="settings">設置</string>
     <string name="quit">退出</string>

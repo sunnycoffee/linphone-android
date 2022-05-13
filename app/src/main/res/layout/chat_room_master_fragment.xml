@@ -70,15 +70,15 @@
                     android:padding="10dp"
                     android:src="@drawable/cancel" />
 
-                <ImageView
-                    android:onClick="@{newOneToOneChatRoomClickListener}"
-                    android:contentDescription="@string/content_description_create_one_to_one_chat_room"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0.2"
-                    android:background="?attr/button_background_drawable"
-                    android:padding="15dp"
-                    android:src="@drawable/chat_new" />
+<!--                <ImageView-->
+<!--                    android:onClick="@{newOneToOneChatRoomClickListener}"-->
+<!--                    android:contentDescription="@string/content_description_create_one_to_one_chat_room"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="0.2"-->
+<!--                    android:background="?attr/button_background_drawable"-->
+<!--                    android:padding="15dp"-->
+<!--                    android:src="@drawable/chat_new" />-->
 
                 <ImageView
                     android:visibility="@{viewModel.groupChatAvailable ? View.VISIBLE : View.GONE}"

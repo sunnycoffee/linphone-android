@@ -5,7 +5,7 @@
 .idea
 .settings
 adb.pid
-bc-android.keystore
+as.jks
 build
 *.iml
 lint.xml

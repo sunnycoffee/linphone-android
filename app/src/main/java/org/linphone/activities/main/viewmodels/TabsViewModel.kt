@@ -89,9 +89,12 @@ class TabsViewModel : ViewModel() {
             middleAnchor.value = 2 / 3F
             rightAnchor.value = 1F
         } else {
-            leftAnchor.value = 0.25F
-            middleAnchor.value = 0.5F
-            rightAnchor.value = 0.75F
+//            leftAnchor.value = 0.25F
+//            middleAnchor.value = 0.5F
+//            rightAnchor.value = 0.75F
+            leftAnchor.value = 1 / 3F
+            middleAnchor.value = 1 / 3F
+            rightAnchor.value = 2 / 3F
         }
 
         updateUnreadChatCount()

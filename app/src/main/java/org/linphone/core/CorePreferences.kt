@@ -111,7 +111,7 @@ class CorePreferences constructor(private val context: Context) {
         }
 
     var readAndAgreeTermsAndPrivacy: Boolean
-        get() = config.getBool("app", "read_and_agree_terms_and_privacy", false)
+        get() = config.getBool("app", "read_and_agree_terms_and_privacy", true)
         set(value) {
             config.setBool("app", "read_and_agree_terms_and_privacy", value)
         }
@@ -119,7 +119,7 @@ class CorePreferences constructor(private val context: Context) {
     /* UI */
 
     var forcePortrait: Boolean
-        get() = config.getBool("app", "force_portrait_orientation", false)
+        get() = config.getBool("app", "force_portrait_orientation", true)
         set(value) {
             config.setBool("app", "force_portrait_orientation", value)
         }
@@ -495,16 +495,16 @@ class CorePreferences constructor(private val context: Context) {
     /* Assistant */
 
     val showCreateAccount: Boolean
-        get() = config.getBool("app", "assistant_create_account", true)
+        get() = config.getBool("app", "assistant_create_account", false)
 
     val showLinphoneLogin: Boolean
-        get() = config.getBool("app", "assistant_linphone_login", true)
+        get() = config.getBool("app", "assistant_linphone_login", false)
 
     val showGenericLogin: Boolean
         get() = config.getBool("app", "assistant_generic_login", true)
 
     val showRemoteProvisioning: Boolean
-        get() = config.getBool("app", "assistant_remote_provisioning", true)
+        get() = config.getBool("app", "assistant_remote_provisioning", false)
 
     /* Side Menu */
 
@@ -524,7 +524,7 @@ class CorePreferences constructor(private val context: Context) {
         get() = config.getBool("app", "side_menu_conferences", true)
 
     val showAboutInSideMenu: Boolean
-        get() = config.getBool("app", "side_menu_about", true)
+        get() = config.getBool("app", "side_menu_about", false)
 
     val showQuitInSideMenu: Boolean
         get() = config.getBool("app", "side_menu_quit", true)

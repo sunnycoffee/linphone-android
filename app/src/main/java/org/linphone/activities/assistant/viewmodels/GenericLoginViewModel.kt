@@ -87,7 +87,7 @@ class GenericLoginViewModel(private val accountCreator: AccountCreator) : ViewMo
     }
 
     init {
-        transport.value = TransportType.Tls
+        transport.value = TransportType.Udp
 
         loginEnabled.value = false
         loginEnabled.addSource(username) {
